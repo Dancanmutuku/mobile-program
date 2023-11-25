@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+public class MobileProgram{
+    public static void main(String[] args) {
+        MobilePhone mobilePhone = new MobilePhone();
+
 class Contact {
     private String name;
     private String phoneNumber;
@@ -151,9 +155,7 @@ class MobilePhone {
     }
 }
 
-public class MobileProgram{
-    public static void main(String[] args) {
-        MobilePhone mobilePhone = new MobilePhone();
+
         mobilePhone.start();
     }
 }
